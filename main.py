@@ -2,6 +2,7 @@ import data
 from sandwich_maker import SandwichMaker
 from cashier import Cashier
 
+# main entry point
 resources = data.resources
 recipes = data.recipes
 sandwich_maker_instance = SandwichMaker(resources)
